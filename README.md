@@ -1,11 +1,11 @@
 # Basic scripts for mail managment
-# [`no-reply-response.py`](no-reply-response.py)
+## [`no-reply-response.py`](no-reply-response.py)
 Automatic response for my fallback email address that replies to any mail not delievered to existing accounts.
 
-# [`temp-mail-deletion.py`](temp-mail-deletion.py)
-Deletes incoming mail to an address following the regex `temp+[A-Za]@yourdomain.com`.
+## [`temp-mail-deletion.py`](temp-mail-deletion.py)
+Deletes incoming mail to an address following the regex `temp+`[`\w`](https://github.com/ziishaned/learn-regex?tab=readme-ov-file#3-shorthand-character-sets)`@yourdomain.com`.
 
-# [`vaccation-response.py`](vaccation-response.py)
+## [`vaccation-response.py`](vaccation-response.py)
 Automatic message response to emails received beetween two dates. Script creates a new tag `Responded` so received emails continue `unseen` and at `inbox`.
 
 Needs a `settings.py` file with the following information:
